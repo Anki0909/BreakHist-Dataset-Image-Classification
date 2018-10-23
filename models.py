@@ -76,7 +76,7 @@ def vgg19_model(image_height, image_width, n_channels, load_wt = "Yes"):
     
     return model
     
-  def xception_model(image_height, image_width, n_channels, load_wt = "Yes"):
+def xception_model(image_height, image_width, n_channels, load_wt = "Yes"):
     TF_WEIGHTS_PATH_NO_TOP = 'https://github.com/fchollet/deep-learning-models/releases/download/v0.4/xception_weights_tf_dim_ordering_tf_kernels_notop.h5'
     weights_path = get_file('xception_weights_tf_dim_ordering_tf_kernels_notop.h5', TF_WEIGHTS_PATH_NO_TOP, cache_subdir='models')
     
