@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 from skimage.transform import resize
 from models import *
-from training import *
+from training_fn import *
 from keras.layers import *
 from keras.models import *
 from keras import layers
