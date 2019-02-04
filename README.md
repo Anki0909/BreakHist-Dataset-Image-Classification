@@ -10,7 +10,7 @@ The tables below gives accuracy of each model for each magnification zoom presen
 | 400X | 0.871 (0.869) | 0.799 (0.799) | 0.761 (0.758) | 0.903 (0.907) | 0.799 (0.796) | 0.842 (0.844) |
 
 
-**Logistic Regression Model trained on features extracted from CNN models**
+**CV score on Logistic Regression Model trained on features extracted from CNN models**
 
 | Magnification/CNN Model -> | VGG-16 | VGG-19 | Xception | Resnet | Inception | Inception-Resnet-V3 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -19,7 +19,7 @@ The tables below gives accuracy of each model for each magnification zoom presen
 | 200X | 0.864 (0.862) | 0.725 (0.718) | 0.940 (0.954) | 0.959 (0.958) | 0.919 (0.917) | 0.961 (0.960) |
 | 400X | 0.952 (0.952) | 0.876 (0.874) | 0.982 (0.982) | 0.983 (0.983) | 0.983 (0.983) | 0.982 (0.982) |
 
-**Linear Support Vector Machine Model trained on features extracted from CNN models**
+**CV score on Linear Support Vector Machine Model trained on features extracted from CNN models**
 
 | Magnification/CNN Model -> | VGG-16 | VGG-19 | Xception | Resnet | Inception | Inception-Resnet-V3 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
